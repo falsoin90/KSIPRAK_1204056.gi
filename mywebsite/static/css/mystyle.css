@@ -1,0 +1,34 @@
+img.kanan {
+    float: right;
+    margin: 5px;
+}
+
+#judul {
+    color: red;
+}
+
+#judul2 {
+    color:green;
+}
+
+#h2 {
+    color: purple;
+}
+
+#isi {
+    color: black;
+}
+
+#link {
+    color: purple;
+}
+
+.container {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid white;
+}
+img {
+    width: 1000px;
+    height: 400px;
+}

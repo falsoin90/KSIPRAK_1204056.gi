@@ -1,0 +1,47 @@
+{% comment %} {% extends 'blog/base.html' %} {% endcomment %}
+
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equip="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+        <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.css' %}">
+        
+        <title>STATIC FILE DJANGO PYTHON</title>
+
+    </head>
+    <body>
+        {% include "blog/navbar.html" %}
+
+        {% comment %} {% block header %}
+    
+           <h1> welcome </h1>
+            <p> happy nice day ! </p>
+
+        {% endblock header %} {% endcomment %}
+
+
+        
+        <center>
+     
+         <h1 id="judul2" > Hi, This's my biodata ! </h1> 
+         <h2 id="h2" > Kamis, 21 Oktober 2002 </h2> 
+         <h3 id="isi" > Saya membuat ini karna untuk memenuhi tugas dari bapak indra insyallah nilai 100 </h3> 
+        </center>
+         <br>
+         <br>
+
+        <center>
+        <img  class="container" src="{% static 'img/raka.jpeg' %}">
+        </center>
+       
+      
+        
+        <script>src="{% static 'vendor/jquery/jquery.js' %}"</script>
+        <script>src="{% static 'vendor/popper/popper.js' %}"</script>
+        <script>src="{% static 'vendor/bootstrap/bootstrap.js' %}"</script>
+    </body>
+</html>
